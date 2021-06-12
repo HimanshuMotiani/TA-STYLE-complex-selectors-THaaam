@@ -169,18 +169,214 @@ border-left-color:green ;
     border-right-color:yellow ;
     border-bottom-color:orange ;
     border-left-color:green ;
-    }
-    .score{
+}
+.score{
         margin-top: 5rem;
-    }
-    .h4-head{
+}
+.h4-head{
     color: #283e7d;
     text-align: center;
     font-size: 2.5rem;
     font-weight: 700;
     margin-bottom: 2rem;
-    }
+}
+.table-main{
+        text-align: left;
 
-    .table-main{
-        text-align: center;
-    }
+}
+
+.table-heading th{
+    padding-left: 1rem;
+}
+tr:nth-child(2n+3){
+    background-color: #d5e5e5;
+}
+.table-heading {
+    color: white;
+    font-size: 1.4rem;
+    font-weight: 500;
+    background-color: #429ea1;
+    line-height: 2;
+}
+td{
+    border: 2px solid #c5d1d1;
+    height: 3.7rem;
+    width: 19rem;
+    text-align: left;
+    padding-left: 1rem;
+    vertical-align: middle;
+    color: #72757C;
+    font-size: 1.2rem;
+}
+
+.packages{
+    text-align: center;
+    margin: 3rem 0;
+}
+.text {
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+.slider-container {
+    width: 6rem;
+    background: #BBECEB;
+    height: 2.8rem;
+    display: inline-block;
+    border-radius: 25px;
+    line-height: 2.8rem;
+    text-align: right;
+    margin: 2rem 1rem;
+}
+.slider {
+    height: 2rem;
+    background: #59bfc2;
+    width: 2rem;
+    display: inline-block;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 2.1rem;
+    margin-right: .5rem;
+}
+.line-inside {
+    display: inline-block;
+    background: white;
+    height: 1rem;
+    width: .25rem;
+}
+.each-packages {
+    border: 6px solid #E8EEFB;
+    border-radius: 15px;
+    padding: 3rem 2rem;
+}
+.packages-text {
+    color: #8492b3;
+    font-size: 1.4rem;
+    margin: 1rem 0;
+}
+.price {
+    font-size: 4.5rem;
+    color: #59bfc2;
+    font-weight: 600;
+}
+.price::before {
+    content: "$";
+    font-size: 2.2rem;
+    color: #59bfc2;
+    margin-right: .5rem;
+}
+.price::after {
+    content: "/Month";
+    font-size: 1.5rem;
+    color: #8492b3;
+    margin-left: .5rem;
+    font-weight: 400;
+}
+.packages .line {
+    margin-top: 2rem;
+}
+.feature {
+    font-size: 1.7rem;
+    color: #42517B;
+    margin-top: 1.8rem;
+    text-align: left;
+}
+.unmarked-features-color {
+    color: #7083AF;
+}
+.checked-icon, .unchecked-icon {
+    color: #59bfc2;
+    font-size: 1.3rem;
+    margin-right: 1rem;
+}
+.unchecked-icon {
+    color: #E94677;
+}
+.btn-packages {
+    height: 4.2rem;
+    border-radius: 7px;
+    width: 90%;
+    background: white;
+    color: #42517B;
+    border: 2px  solid #d7d9dd;
+    font-size: 1.7rem;
+
+    padding: 0.6rem 10rem;
+    line-height: 4.2rem;
+}
+.height{
+    margin-top: 1.6rem;
+}
+.btn-package-active {
+    background: #59bfc2;
+    border: 0;
+    color: white;
+}
+.trial-sec {
+    background: #59bfc2;
+    border-radius: 25px;
+    padding: 5rem 0;
+    text-align: center;
+    margin-top: 10rem;
+}
+.trial-sec .h2-heading {
+    color: white;
+}
+.btn-trial-sec {
+    background: white;
+    width: 30%;
+    border: 0;
+}
+.h5-head{
+    color: white;
+    font-size: 2.4rem;
+}
+.footer {
+    padding-top: 6rem;
+    padding-bottom: 2rem;
+}
+.footer .brand-name {
+    color: #283D7D;
+    font-size: 2.5rem;
+}
+.flex-28{
+    flex: 0 1 28%;
+}
+.flex-22{
+    flex: 0 1 22%;
+}
+.footer .text {
+    color: #6E81AE;
+    font-size: 1.4rem;
+    margin-top: 1rem;
+    text-decoration: none;
+}
+.h3-heading {
+    font-size: 2rem;
+    color: #283D7D;
+}
+.brand-and-nav {
+    margin-right: 6rem;
+}
+.icon-container {
+    display: inline-block;
+    background: #59bfc2;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    line-height: 2.5rem;
+    text-align: center;
+    color: white;
+    margin-right: 2rem;
+    margin-top: 2rem;
+}
+.contact a {
+    margin-top: 1rem;
+    display: inline-block;
+}
+.flex-start{
+    align-items: flex-start;
+}
+.end {
+    justify-content: end;
+}
+
